@@ -1,6 +1,6 @@
 # std_module
 ------------------------
-A simplified one stop library for all the basic Verilog modules.
+A simplified one stop RTL library for all the basic Verilog modules.
 
 
 ### Contents ( List of modules )
