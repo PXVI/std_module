@@ -4,7 +4,7 @@ A simplified one stop RTL library for all the basic Verilog modules.
 
 
 ### Contents ( List of modules )
--  [] Basic Gates
+-  [ ] Basic Gates
   - [ ] AND
   - [ ] OR
   - [ ] NOT
