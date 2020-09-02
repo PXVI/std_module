@@ -6,12 +6,12 @@ A simplified one stop RTL library for all the basic Verilog modules.
 ### Contents ( List of modules )
 - [X] Basic Gates
   - [X] AND
-  - [ ] OR
-  - [ ] NOT
-  - [ ] NOR
-  - [ ] NAND
-  - [ ] XOR
-  - [ ] XNOR
+  - [X] OR
+  - [X] NOT
+  - [X] NOR
+  - [X] NAND
+  - [X] XOR
+  - [X] XNOR
 - [ ] Logic Modules
   - [ ] Multiplexer 2x1
   - [ ] Multiplexer Nx1
