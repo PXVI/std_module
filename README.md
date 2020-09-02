@@ -4,7 +4,7 @@ A simplified one stop RTL library for all the basic Verilog modules.
 
 
 ### Contents ( List of modules )
-- Basic Gates
+-  [] Basic Gates
   - [ ] AND
   - [ ] OR
   - [ ] NOT
@@ -12,26 +12,26 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [ ] NAND
   - [ ] XOR
   - [ ] XNOR
-- Logic Buildng Blocks
+- [ ] Logic Buildng Blocks
   - [ ] Multiplexer 2x1
   - [ ] Multiplexer Nx1
   - [ ] DeMultiplexer 1x2
   - [ ] DeMultiplexer 1xN
   - [ ] Encoder NxM
   - [ ] Decoder MxN
-- Arithematic Building Blocks
+- [ ] Arithematic Building Blocks
   - [ ] Half Adder
   - [ ] Full Adder
   - [ ] Half Subtractor
   - [ ] Full Subtractor
-- Sequential Building Blocks
+- [ ] Sequential Building Blocks
   - [ ] Left Shifter ( SISO )
   - [ ] Right Shifter ( SISO )
   - [ ] Cyclic Shifter ( SISO )
   - [ ] Parallel Load Serial Shifter ( PISO )
   - [ ] Barrel Shifter
   - [ ] Linear Feedback Shift Register ( LFSR )
-- Synchronization Building Blocks
+- [ ] Synchronization Building Blocks
   - [ ] Synchronous FIFO
   - [ ] Asynchronous FIFO
 
