@@ -37,4 +37,4 @@ A simplified one stop RTL library for all the basic Verilog modules.
 
 
 #### Note :
-All the modules here are designed in the behavioural format of the RTL code. It is very unlikely that you will find any hardcore structural code in here. If there are any, I'll make sure to mention it in this list here, so its easier to keep track of.
+All the modules here are designed in the behavioural format of the RTL code. It is quiet unlikely that you will find any hardcore structural code in here. If there are any, I'll make sure to mention it in this list here, so its easier to keep track of.
