@@ -13,10 +13,10 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [X] XOR
   - [X] XNOR
 - [ ] Logic Modules
-  - [ ] Multiplexer 2x1
+  - [X] Multiplexer 2x1
   - [ ] Multiplexer Nx1
-  - [ ] DeMultiplexer 1x2
-  - [ ] DeMultiplexer 1xN
+  - [X] DeMultiplexer 1x2
+  - [X] DeMultiplexer 1xN ( Module Script )
   - [ ] Encoder NxM
   - [ ] Decoder MxN
 - [ ] Arithematic Modules
