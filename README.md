@@ -14,7 +14,7 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [X] XNOR
 - [ ] Logic Modules
   - [X] Multiplexer 2x1
-  - [ ] Multiplexer Nx1
+  - [X] Multiplexer Nx1 ( Module Script )
   - [X] DeMultiplexer 1x2
   - [X] DeMultiplexer 1xN ( Module Script )
   - [ ] Encoder NxM
