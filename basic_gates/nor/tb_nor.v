@@ -1,29 +1,19 @@
 /* -----------------------------------------------------------------------------------
- * Module Name  : or_gate
- * Date Created : 00:18:20 IST, 03 September, 2020 [ Thursday ]
+ * Module Name  : -
+ * Date Created : 22:10:02 IST, 03 September, 2020 [ Thursday ]
  *
  * Author       : pxvi
- * Description  : Basic parameterized OR gate model.
+ * Description  : NOR gate testbench
  * ----------------------------------------------------------------------------------- */
 
-module or_gate#( parameter WIDTH = 1 )(     input [WIDTH-1:0] IN0,
-                                            input [WIDTH-1:0] IN1,
-                                            output [WIDTH-1:0] OUT0 );
+`include "nor_gate.v"
 
-    assign OUT0 = IN0 | IN1;
-
-endmodule
-
-// -----------------------------------------------------------------------------------
-// Testbench
-// -----------------------------------------------------------------------------------
-
-module or_gate_top;
+module nor_gate_top;
 
     reg I0, I1;
     wire Out;
 
-    or_gate gate0( I0, I1, Out );
+    nor_gate gate0( I0, I1, Out );
 
     initial
     begin
@@ -47,3 +37,4 @@ module or_gate_top;
     end
     
 endmodule
+

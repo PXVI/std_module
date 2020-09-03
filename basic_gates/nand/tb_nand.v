@@ -1,29 +1,19 @@
 /* -----------------------------------------------------------------------------------
- * Module Name  : and_gate
- * Date Created : 23:53:16 IST, 02 September, 2020 [ Wednesday ]
+ * Module Name  : -
+ * Date Created : 22:09:53 IST, 03 September, 2020 [ Thursday ]
  *
  * Author       : pxvi
- * Description  : Basic parameterized AND gate module.
+ * Description  : NAND gate testbench
  * ----------------------------------------------------------------------------------- */
 
-module and_gate#( parameter WIDTH = 1 )(    input [WIDTH-1:0] IN0,
-                                            input [WIDTH-1:0] IN1,
-                                            output [WIDTH-1:0] OUT0 );
+`include "nand_gate.v"
 
-    assign OUT0 = IN0 & IN1;
-
-endmodule
-
-// -----------------------------------------------------------------------------------
-// Testbench
-// -----------------------------------------------------------------------------------
-
-module and_gate_top;
+module nand_gate_top;
 
     reg I0, I1;
     wire Out;
 
-    and_gate gate0( I0, I1, Out );
+    nand_gate gate0( I0, I1, Out );
 
     initial
     begin
@@ -47,3 +37,4 @@ module and_gate_top;
     end
     
 endmodule
+

@@ -1,29 +1,19 @@
 /* -----------------------------------------------------------------------------------
- * Module Name  : xnor_gate
- * Date Created : 00:18:20 IST, 03 September, 2020 [ Thursday ]
+ * Module Name  : -
+ * Date Created : 22:01:02 IST, 03 September, 2020 [ Thursday ]
  *
  * Author       : pxvi
- * Description  : Basic parameterized XNOR gate
+ * Description  : XOR gate tectbench
  * ----------------------------------------------------------------------------------- */
 
-module xnor_gate#( parameter WIDTH = 1 )(   input [WIDTH-1:0] IN0,
-                                            input [WIDTH-1:0] IN1,
-                                            output [WIDTH-1:0] OUT0 );
+`include "xor_gate.v"
 
-    assign OUT0 = ~( IN0 ^ IN1 );
-
-endmodule
-
-// -----------------------------------------------------------------------------------
-// Testbench
-// -----------------------------------------------------------------------------------
-
-module xnor_gate_top;
+module xor_gate_top;
 
     reg I0, I1;
     wire Out;
 
-    xnor_gate gate0( I0, I1, Out );
+    xor_gate gate0( I0, I1, Out );
 
     initial
     begin
@@ -47,3 +37,4 @@ module xnor_gate_top;
     end
     
 endmodule
+
