@@ -1,5 +1,5 @@
 # * -----------------------------------------------------------------------------------
-# * Script Name  : script_semux_1xN
+# * Script Name  : script_demux_1xN
 # * Date Created : 22:41:16 IST, 03 September, 2020 [ Thursday ]
 # *
 # * Author       : pxvi
