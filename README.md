@@ -12,13 +12,13 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [X] NAND
   - [X] XOR
   - [X] XNOR
-- [ ] Logic Modules
+- [X] Logic Modules
   - [X] Multiplexer 2x1
   - [X] Multiplexer Nx1 ( Module Script )
   - [X] DeMultiplexer 1x2
   - [X] DeMultiplexer 1xN ( Module Script )
-  - [ ] Encoder NxM
-  - [ ] Decoder MxN
+  - [X] Encoder NxM
+  - [X] Decoder MxN
 - [ ] Arithematic Modules
   - [ ] Half Adder
   - [ ] Full Adder
