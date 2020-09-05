@@ -19,11 +19,11 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [X] DeMultiplexer 1xN ( Module Script )
   - [X] Encoder NxM
   - [X] Decoder MxN
-- [ ] Arithematic Modules
-  - [ ] Half Adder
-  - [ ] Full Adder
-  - [ ] Half Subtractor
-  - [ ] Full Subtractor
+- [X] Arithematic Modules
+  - [X] Half Adder
+  - [X] Full Adder
+  - [X] Half Subtractor
+  - [X] Full Subtractor
 - [ ] Sequential Modules
   - [ ] Left Shifter ( SISO )
   - [ ] Right Shifter ( SISO )
