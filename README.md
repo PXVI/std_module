@@ -24,16 +24,15 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [X] Full Adder
   - [X] Half Subtractor
   - [X] Full Subtractor
-- [ ] Sequential Modules
+- [X] Sequential Modules
   - [X] Left Shifter ( SISO )
   - [X] Right Shifter ( SISO )
   - [X] Left-Right Shifter ( SISO )
   - [X] Parallel Load Cyclic Left Serial Shifter ( PISO )
-  - [ ] Barrel Shifter
-  - [ ] Linear Feedback Shift Register ( LFSR )
-- [ ] Buffer Modules
-  - [ ] Synchronous FIFO
-  - [ ] Asynchronous FIFO
+- [X] Buffer Modules
+  - [X] Synchronous FIFO
+    - [X] Synchronous FIFO ( v1 ) { Lint Issues }
+  - [X] Asynchronous FIFO
     - [X] Asynchronous FIFO ( v1 )
 
 
