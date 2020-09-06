@@ -25,9 +25,9 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [X] Half Subtractor
   - [X] Full Subtractor
 - [ ] Sequential Modules
-  - [ ] Left Shifter ( SISO )
-  - [ ] Right Shifter ( SISO )
-  - [ ] Cyclic Shifter ( SISO )
+  - [X] Left Shifter ( SISO )
+  - [X] Right Shifter ( SISO )
+  - [X] Left-Right Shifter ( SISO )
   - [ ] Parallel Load Serial Shifter ( PISO )
   - [ ] Barrel Shifter
   - [ ] Linear Feedback Shift Register ( LFSR )
