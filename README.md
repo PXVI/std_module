@@ -28,7 +28,7 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [X] Left Shifter ( SISO )
   - [X] Right Shifter ( SISO )
   - [X] Left-Right Shifter ( SISO )
-  - [ ] Parallel Load Serial Shifter ( PISO )
+  - [X] Parallel Load Cyclic Left Serial Shifter ( PISO )
   - [ ] Barrel Shifter
   - [ ] Linear Feedback Shift Register ( LFSR )
 - [ ] Buffer Modules
