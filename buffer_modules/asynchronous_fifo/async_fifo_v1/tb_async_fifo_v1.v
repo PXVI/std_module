@@ -150,7 +150,7 @@ module async_fifo_v1_top;
     initial
     begin
         $dumpfile( "fifo_dump.vcd" );
-        $dumpvars( 1,fifo,RST,CLK_WR,CLK_RD,DATA_IN,WR_EN,RD_EN,H_FLUSH,DATA_OUT,FULL,EMPTY,H_FULL );
+        $dumpvars( 0, async_fifo_v1_top );
     end
 
 endmodule
