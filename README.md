@@ -31,7 +31,7 @@ A simplified one stop RTL library for all the basic Verilog modules.
   - [X] Parallel Load Cyclic Left Serial Shifter ( PISO )
 - [X] Buffer Modules
   - [X] Synchronous FIFO
-    - [X] Synchronous FIFO ( v1 ) **[ Ongoing int Issues ]**
+    - [X] Synchronous FIFO ( v1 )   **[ Ongoing Lint Issues ]**
   - [X] Asynchronous FIFO
     - [X] Asynchronous FIFO ( v1 )
 
